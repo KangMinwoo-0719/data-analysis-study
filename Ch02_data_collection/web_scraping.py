@@ -11,6 +11,6 @@ url = "https://data4library.kr/api/itemSrch?format=json&startDt=2021-04-01&endDt
 '''
 ㄴ get()함수 return 값 : API 호출 결과 담고있는 requests package > Response class object
 '''
-data = r.json()
-print(data)
+# data = r.json()
+# print(data)
 # ㄴ json() : 웹으로부터 받은 JSON 문자열 > python object로 변환
